@@ -66,7 +66,7 @@ module.exports = {
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
   LANG: (process.env.THEME || "Kerm-md-v2").toUpperCase(),
 };
-global.rank = "updated";
+global.rank = "shift";
 global.isMongodb = false;
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
