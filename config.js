@@ -19,13 +19,13 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vafn6hc7D
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/40ffc2a288542560c887c.jpg";
 global.devs = "https://wa.me/237650564445 , https://wa.me/";
 global.sudo = process.env.SUDO || "242057954499";
-global.owner = process.env.OWNER_NUMBER || "242069091647";
+global.owner = process.env.OWNER_NUMBER || "242057954499";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
-global.disablepm = process.env.DISABLE_PM || "false";
-global.disablegroup = process.env.DISABLE_GROUPS || "false",
+global.disablepm = process.env.DISABLE_PM || "true";
+global.disablegroup = process.env.DISABLE_GROUPS || "true",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
 global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/40ffc2a288542560c887c.jpg,https://telegra.ph/file/9deb04066bb23928364eb.jpg,https://telegra.ph/file/a883ea1d150f9db4033ac.jpg,https://telegra.ph/file/a449aee68cc980769cf24.jpg,https://telegra.ph/file/0ed72840be5821352f6e1.jpg";
 global.waPresence = process.env.WAPRESENCE || "available";
@@ -42,7 +42,7 @@ global.scan = "https://kerm-session-39mi.onrender.com/wasiqr";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "7NlFnSCA#nVvVzg2If9Rm2im8RfycZ_tN2ny8O3vtaOnqNmrgc2Y"
+  "mc0lCByR#zJfi3LK4FPnKVFJqIlocestU2UKr-ptn6l3gpeSR6Dw"
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || "✓",
